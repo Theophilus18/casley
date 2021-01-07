@@ -1,0 +1,384 @@
+body{
+    line-height: 1.5;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mother{
+    background: #1D1D1D;
+    width: 100%;
+    height: 100vh;
+    color:white ;
+}
+
+.banner{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+.context{
+    width: 100px;
+    font-size: 10px;
+    margin-left: 20px;
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    margin: 0;
+}
+.line_text{
+    position: absolute;
+    top: 5%;
+    left:95%;
+    width: 30px;
+    height: 40px;
+  
+}
+
+.line{
+    background-color:white;
+    width: 60%;
+    height:3px;
+    margin: 2px;
+  
+}
+
+.line2{
+    background-color:white;
+    width: 60%;
+    height:3px;
+    margin: 2px;
+}
+
+.line3{
+    background-color:white;
+    width: 60%;
+    height:3px;
+    margin: 2px;
+}
+
+.content{
+    position: absolute;
+    top: 40%;
+    left: 40px;
+    transform: translateY(-40%);
+}
+
+.text{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.line4{
+    background-color: gray;
+    width: 130%;
+    height:0.5px ;
+}
+
+.text1{
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.text2{
+    padding-top:15px ;
+    font-size: 10px;
+}
+
+.banner_color{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin-top: 25px;
+}
+
+.image{
+    margin: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.about{
+    width: 100px;
+    font-size: 10px;
+    margin-left: 20px;
+    position: absolute;
+    top: 88%;
+    left: 10%;
+    margin: 0;
+}
+
+.about a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact{
+    font-size: 10px;
+    position: absolute;
+    top: 85%;
+    left:91% ;
+    border: 0.1px solid white;
+    width: 90px;
+    height:25px ;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.media{
+    position: absolute;
+    top: 91%;
+    left:90% ;
+    margin: 0;
+    padding: 15px 5px;
+   
+}
+
+.media ul{
+    margin: 0;
+    padding: 5px;
+}
+.media a{
+    margin-left: 10px;
+}
+
+.nav{
+   
+    width: 10px;
+    position: absolute;
+    top: 35%;
+    left: 96%;
+    padding: 15px 8px;
+}
+
+.dot_container{
+    border: solid gray 1px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: gray;
+}
+
+.dot1{
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-bottom:2px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.dot{
+    background-color: white;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 5px
+}
+
+
+.contact:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
+
+
+.image2{ 
+    position: absolute;
+    left: 50%;
+    top: 97%;
+    width: 0;
+    height: 0;
+}
+
+.text3{
+    font-size: 7px;
+    position: absolute;
+    left: 82%;
+    top: 94.5%;
+    color: grey;
+}
+
+.small{
+color: white;
+font-weight: bold;
+}
+
+@media screen and (max-width:1025px){
+
+    .contact{
+        left: 87%;
+    }
+
+    .media{
+        left: 86%;
+    }
+
+    .text3{
+        left: 75%;
+        top: 94%;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:769px){
+    .contact{
+        width: 70px;
+        position: absolute;
+        top: 87%;
+        left: 87%;
+    }
+
+
+    .media{
+        padding: 5px;
+        position: absolute;
+        top: 91.5%;
+        left:85%;
+        padding-top: 25px;
+    }
+
+    .media ul{
+        padding: 0;
+        width: 100%;
+    }
+
+    .media a{
+        margin-left: 10px;
+    }
+
+    .text3{
+        position: absolute;
+        top: 95%;
+        left: 68%;
+    }
+
+}
+
+@media screen and (max-width:426px){
+    
+    .line_text{
+        position: absolute;
+        top: 5%;
+        left: 87%;
+    }
+
+    .nav{
+        position: absolute;
+        top: 35%;
+        left: 92%;
+    }
+
+    .contact{
+        top: 84%;
+        left:78%;
+        font-size: 2px;
+        width: 65px;
+        height:20px;
+    }
+
+    .image2{
+        position: absolute;
+        left: 45%;
+        top: 96%;
+    }
+
+    .text3{
+        top: 93%;
+        left: 52%;
+        font-size: 4px;
+    }
+
+    .media{
+        top: 88%;
+        left: 75%;
+    }
+
+    .line4{
+        width: 80%;
+    }
+
+    .text{
+        font-size:20px ;
+    }
+
+    .text2{
+        font-size: 3px;
+        width: 70%;
+    }
+
+    .text1{
+        font-size: 13px;
+    }
+
+    .banner{
+        left:8%;
+    }
+}
+
+@media screen and (max-width:321px){
+
+    .contact{
+        left: 70%;
+    }
+
+    .media{
+        left: 65%;
+    }
+
+    .text3{
+        left: 33%;
+    }
+
+    .about{
+        left:15%;
+    }
+}
+
+@media screen and (orientation:landscape){
+
+    .contact{
+        top: 80%;
+        left: 85%;
+        height: 20px;
+    }
+
+    .nav{
+        left: 95%;
+        padding: 15px 5px;
+    }
+
+    .line4{
+        width: 95%;
+    }
+
+    .media{
+        top: 85%;
+        left: 83%;
+    }
+
+    .text3{
+        left: 62%;
+        top:92%;
+    }
+
+    .image2{
+        top: 94%;
+    }
+
+    .line_text{
+        left: 94%;
+    }
+
+}
+
+
+
+
+
